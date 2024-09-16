@@ -11,7 +11,7 @@ const About = () => {
         <div className='flex flex-col md:flex-row items-center md:space-x-12'>
             <img src={Ahmad} className='w-74 h-80 p-5 rounded object-cover mb-8 md:mb-0'></img>
            <div className='flex-1'>
-           <p className='text-lg mb-8'>
+           <p className='text-lg mb-8 p-10'>
            Experienced backend developer specializing in the dotnet Stack (ASP.NET Core, Entity Framework Core)and Azure DevOps. Proficient in C# with a strongfoundation in relational databases. Dedicated todelivering high-quality software solutions using .NETtechnologies. Seeking opportunities to leverage my.NET skills and 
            contribute to innovative projects in a collaborative team setting.
             </p>

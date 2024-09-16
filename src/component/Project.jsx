@@ -23,9 +23,7 @@ const Project = () => {
         Access:"https://csp.tdafrica.com/"
 
     },
-    {
-        id:4,
-        image:"pro4.jpg",
+    {   id:4,
         title:"Verivault",
         description:"Check out the project by clicking on the button",
         Access:"https://verivault-admin.surge.sh/auth/login"
@@ -33,7 +31,6 @@ const Project = () => {
     },
     {
         id:5,
-        image:"pro2.jpg",
         title:"Just Own It",
         description:"Check out the project by clicking on the button",
         Access:"https://www.justownitapp.com/"
@@ -53,7 +50,7 @@ const Project = () => {
                                  from-green-400 to-blue-500'>
                                     {project.id}
                   </div>
-                    <h2 className='bg-gradient-to-r
+                   <h2 className='bg-gradient-to-r
          from-yellow-800 to-yellow-500 text-black font-bold mb-5 mr-5'>{project.title}</h2>
                     <p className=' text-black mb-5 mr-5 '>{project.description}</p>
                     <a href={project.Access} className='bg-gradient-to-r mx-5 my-5 from-yellow-200 
